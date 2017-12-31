@@ -32,7 +32,7 @@ public class TestRstAsrd7_Optimized_Response {
 		String alpha2 = jpath.get("RestResponse.result.alpha2_code");
 		String alpha3 = jpath.get("RestResponse.result.alpha3_code");
 			
-		sa.assertEquals("United States of Americ", country);
+		sa.assertEquals("United States of America", country);
 		sa.assertEquals("US", alpha2);
 		sa.assertEquals("USA", alpha3);
 		
@@ -42,6 +42,6 @@ public class TestRstAsrd7_Optimized_Response {
 		
 		sa.assertAll();
 		
-		System.out.println(" ============== End of Test   =================");
+		System.out.println(" ============== End of Test   ==================");
 	}
 }
