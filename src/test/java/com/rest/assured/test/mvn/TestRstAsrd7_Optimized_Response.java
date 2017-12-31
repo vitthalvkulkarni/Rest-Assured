@@ -42,6 +42,6 @@ public class TestRstAsrd7_Optimized_Response {
 		
 		sa.assertAll();
 		
-		System.out.println(" ============== End of Test   ==================");
+		System.out.println(" ============== End of Test   =================");
 	}
 }
