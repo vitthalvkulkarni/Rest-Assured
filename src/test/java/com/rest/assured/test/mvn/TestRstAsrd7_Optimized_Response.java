@@ -33,8 +33,8 @@ public class TestRstAsrd7_Optimized_Response {
 		String alpha3 = jpath.get("RestResponse.result.alpha3_code");
 			
 		sa.assertEquals("United States of Americ", country);
-		sa.assertEquals("IN", alpha2);
-		sa.assertEquals("USAA", alpha3);
+		sa.assertEquals("US", alpha2);
+		sa.assertEquals("USA", alpha3);
 		
 		System.out.println("Country Name is: "+country);
 		System.out.println("Alpha Code 1 is: "+alpha2);

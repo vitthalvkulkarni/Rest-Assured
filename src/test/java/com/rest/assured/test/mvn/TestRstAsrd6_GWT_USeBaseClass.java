@@ -22,7 +22,7 @@ public class TestRstAsrd6_GWT_USeBaseClass extends Common{
 	
 	
 
-	@Test
+	//@Test
 	public void test1() throws URISyntaxException
 	{
 		System.out.println(baseURI+basePath);
