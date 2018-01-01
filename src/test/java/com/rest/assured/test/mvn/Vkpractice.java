@@ -72,6 +72,7 @@ public class Vkpractice {
 		sa.assertEquals(alpha2, "IN");
 		sa.assertEquals(alpha3, "USA");	
 		sa.assertAll();
+		
 	}
 	
 	@Test
