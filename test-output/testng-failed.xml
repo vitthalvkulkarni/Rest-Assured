@@ -3,14 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.rest.assured.mvn.Vkpractice">
+      <class name="testsuit.TestRstAsrd7_Optimized_Response">
         <methods>
-          <include name="test5"/>
-          <include name="test6"/>
-          <include name="test4"/>
-          <include name="test7"/>
+          <include name="test9"/>
         </methods>
-      </class> <!-- com.rest.assured.mvn.Vkpractice -->
+      </class> <!-- testsuit.TestRstAsrd7_Optimized_Response -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
