@@ -1,4 +1,4 @@
-package com.rest.assured.mvn;
+package testsuit;
 
 import org.testng.annotations.Test;
 
@@ -10,7 +10,7 @@ import io.restassured.specification.RequestSpecification;
 public class TestRstAsrd1 {
 	
 	@Test
-	public void test1()
+	public void test4()
 	{
 		System.out.println(" ============== Start of Test ==================");
 		

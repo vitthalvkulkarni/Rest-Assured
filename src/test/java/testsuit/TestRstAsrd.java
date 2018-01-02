@@ -1,4 +1,4 @@
-package com.rest.assured.mvn;
+package testsuit;
 
 import org.testng.annotations.Test;
 import static org.hamcrest.Matchers.equalTo;

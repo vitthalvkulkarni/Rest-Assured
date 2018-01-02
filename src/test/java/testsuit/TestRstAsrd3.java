@@ -1,4 +1,4 @@
-package com.rest.assured.mvn;
+package testsuit;
 
 import org.testng.annotations.Test;
 
@@ -11,7 +11,7 @@ public class TestRstAsrd3 {
 	public String country = "/US";
 	
 	@Test
-	public void test1()
+	public void test5()
 	{
 		System.out.println(" ============== Start of Test ==================");
 		

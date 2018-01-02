@@ -1,4 +1,4 @@
-package com.rest.assured.mvn;
+package testsuit;
 
 import static io.restassured.RestAssured.*;
 
@@ -13,7 +13,7 @@ public class TestRstAsrd4_GWT {
 	public String country = "/IN";
 	
 	@Test
-	public void test1()
+	public void test6()
 	{		
 		System.out.println(" ============== Start of Test ==================");
 		

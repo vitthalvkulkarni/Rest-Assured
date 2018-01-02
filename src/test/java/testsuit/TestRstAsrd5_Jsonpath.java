@@ -1,4 +1,4 @@
-package com.rest.assured.test.mvn;
+package testsuit;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -9,7 +9,7 @@ import io.restassured.response.Response;
 
 public class TestRstAsrd5_Jsonpath {
 	
-	public class TestRstAsrd3 {
+	public class TestRstAsrd {
 		
 		private String domain = "http://services.groupkt.com/country/get/iso2code";
 		private String countrycode = "/US";
@@ -19,7 +19,7 @@ public class TestRstAsrd5_Jsonpath {
 		
 		
 		@Test
-		public void test1()
+		public void test7()
 		{
 			System.out.println(" ============== Start of Test ==================");
 			

@@ -1,4 +1,4 @@
-package com.rest.assured.mvn.baseclass;
+package testsuit;
 
 import static io.restassured.RestAssured.*;
 

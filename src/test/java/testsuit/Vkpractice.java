@@ -1,4 +1,4 @@
-package com.rest.assured.test.mvn;
+package testsuit;
 
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -18,7 +18,7 @@ public class Vkpractice {
 	
 	
 	@Test
-	public void test1()
+	public void test10()
 	{
 		Response response = 
 		when()
@@ -37,7 +37,7 @@ public class Vkpractice {
 	}
 	
 	@Test
-	public void test2()
+	public void test11()
 	{
 		System.out.println("Country is: "+country);
 		System.out.println("alpha2 is: "+alpha2);
@@ -45,7 +45,7 @@ public class Vkpractice {
 	}
 	
 	@Test
-	public void test3()
+	public void test12()
 	{
 		SoftAssert sa = new SoftAssert();
 		sa.assertEquals("United States of America", country);
@@ -55,7 +55,7 @@ public class Vkpractice {
 	}
 	
 	@Test
-	public void test4()
+	public void test13()
 	{
 		SoftAssert sa = new SoftAssert();
 		sa.assertEquals(country, "United States of North America");
@@ -65,7 +65,7 @@ public class Vkpractice {
 	}
 	
 	@Test
-	public void test5()
+	public void test14()
 	{
 		SoftAssert sa = new SoftAssert();
 		sa.assertEquals(country, "United States of America");
@@ -76,7 +76,7 @@ public class Vkpractice {
 	}
 	
 	@Test
-	public void test6()
+	public void test15()
 	{
 		SoftAssert sa = new SoftAssert();
 		sa.assertEquals(country, "United States of America");
@@ -86,7 +86,7 @@ public class Vkpractice {
 	}
 	
 	@Test
-	public void test7()
+	public void test16()
 	{
 		SoftAssert sa = new SoftAssert();
 		sa.assertEquals(country, "United States of N America");

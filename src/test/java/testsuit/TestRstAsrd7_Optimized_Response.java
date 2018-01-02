@@ -1,4 +1,4 @@
-package com.rest.assured.test.mvn;
+package testsuit;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -12,7 +12,7 @@ import io.restassured.response.Response;
 public class TestRstAsrd7_Optimized_Response {
 
 	@Test
-	public void test1()
+	public void test9()
 	{
 		
 		System.out.println(" ============== Start of Test ==================");

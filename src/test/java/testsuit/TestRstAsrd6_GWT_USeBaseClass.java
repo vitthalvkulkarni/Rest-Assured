@@ -1,9 +1,7 @@
-package com.rest.assured.test.mvn;
+package testsuit;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import com.rest.assured.mvn.baseclass.Common;
 
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
@@ -23,7 +21,7 @@ public class TestRstAsrd6_GWT_USeBaseClass extends Common{
 	
 
 	//@Test
-	public void test1() throws URISyntaxException
+	public void test8() throws URISyntaxException
 	{
 		System.out.println(baseURI+basePath);
 		Response response = given()
